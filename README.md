@@ -1,34 +1,49 @@
-# 🌐 Animated Portfolio Website
+# 🚀 Srijan Singh - Personal Portfolio
 
-A sleek, responsive, and fully customizable **animated portfolio website** built using **React.js** and **Tailwind CSS**. This project gained **27K+ views** on [YouTube]([https://youtube.com/your-video-link](https://youtu.be/ypSc8HEurGQ?si=yI3GJCye3sAKoemW)) – loved by developers and students for its modern design and clean code.
+A modern, responsive personal portfolio website built with **React.js**, **Vite**, and **Tailwind CSS**. This portfolio showcases my skills as an aspiring Software Engineer, full-stack developer, and IT student with a clean, professional design and smooth animations.
 
-## 🚀 Live Demo
+## 🌟 Live Demo
 
-🔗 [View Portfolio Live](https://tarunkaushik.vercel.app/)
+🔗 **[View Live Portfolio](https://your-deployment-url.netlify.app)** *(Will be updated after deployment)*
 
 ## 🛠️ Tech Stack
 
-- ⚛️ React.js
-- 🎨 Tailwind CSS
-- 💾 Vercel(for deployment)
+- ⚛️ **React 18** - Modern React with hooks
+- ⚡ **Vite** - Lightning-fast build tool
+- 🎨 **Tailwind CSS** - Utility-first CSS framework
+- 🎦 **Animations**: react-typing-effect, react-parallax-tilt
+- 📧 **EmailJS** - Contact form functionality
+- 🔔 **React Toastify** - Elegant notifications
 
-## 📁 Features
+## ✨ Features
 
-- Responsive design for all screen sizes 📱💻
-- Smooth scroll and animation effects ✨
-- Clean and modular React components 🧩
-- Easy to customize with Tailwind utility classes 🎯
-- Professional sections: About, Skills, Projects, Contact, etc. 👨‍💻
+- 📱 **Fully Responsive** - Optimized for all devices
+- 🎨 **Modern Design** - Clean, professional dark theme
+- 🎦 **Smooth Animations** - Typing effects, 3D tilt, transitions
+- 📧 **Working Contact Form** - EmailJS integration
+- 🔙 **Back-to-Top Button** - Enhanced user experience
+- 📁 **Data-Driven** - Easy content management
+- ⚙️ **Professional Sections**:
+  - Hero/About with typing animation
+  - Skills showcase with categories
+  - Experience timeline
+  - Project portfolio
+  - Education timeline
+  - Contact form
 
 
-## 🧑‍💻 How to Use
+## 🚀 Getting Started
 
-### 1. Clone the Repo
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn package manager
+
+### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/codingmastr/Tarun-s-Portfolio.git]
-cd your-repo-name
-````
+git clone https://github.com/Srijan1419/Portfolio.git
+cd Portfolio
+```
 
 ### 2. Install Dependencies
 
@@ -36,24 +51,58 @@ cd your-repo-name
 npm install
 ```
 
-### 3. Run the App
+### 3. Start Development Server
 
 ```bash
-npm start
+npm run dev
 ```
 
-### 4. Build for Production
+### 4. Open Your Browser
+Navigate to `http://localhost:5173`
+
+### 5. Build for Production
 
 ```bash
 npm run build
+npm run preview  # Preview the build locally
 ```
 
-## 📹 YouTube Tutorial
+## 🎯 Customization
 
-Watch the full build on YouTube:
-📺 [React Portfolio Website - 27K+ Views](https://youtu.be/ypSc8HEurGQ?si=winjJhc9qzNrCqLD)
+### 1. Personal Information
+Edit `src/constants.js` to update:
+- Skills and technologies
+- Work experience
+- Education details
+- Project information
 
-## 🌟 Credits
+### 2. Profile Image
+Replace `src/assets/profile2.jpg` with your profile picture
 
-This project was created with ❤️ by [Tarun Kaushik](https://tarunkaushik.vercel.app/).
-If you like it, feel free to ⭐ this repository and share!
+### 3. Resume/CV Link
+Update the resume link in `src/components/About/About.jsx`
+
+### 4. Contact Form Setup
+Configure EmailJS in `src/components/Contact/Contact.jsx` with your credentials
+
+### 5. Logo Replacement
+Replace logos in respective asset folders:
+- Company logos: `src/assets/company_logo/`
+- Education logos: `src/assets/education_logo/`
+- Project images: `src/assets/work_logo/`
+
+## 📞 Contact
+
+**Srijan Singh**
+- 🌐 Portfolio: [Coming Soon]
+- 📧 Email: [your.email@example.com]
+- 💼 LinkedIn: [linkedin.com/in/your-profile]
+- 🐈 GitHub: [@Srijan1419](https://github.com/Srijan1419)
+
+---
+
+⭐ **If you found this project helpful, please consider giving it a star!**
+
+---
+
+*Built with ❤️ by Srijan Singh*
