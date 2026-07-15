@@ -105,6 +105,13 @@ The contact form reads credentials from environment variables (see `.env.example
 - Copy `.env.example` to `.env` and fill in your EmailJS Service ID, Template ID, and Public Key
 - `Contact.jsx` reads them via `import.meta.env.VITE_EMAILJS_*` — never hardcode credentials in the component
 
+#### Deployment (Vercel)
+- CLI is a devDependency; config lives in `vercel.json` (Vite framework preset, `dist` output)
+- One-time setup: `npx vercel login`, then `npx vercel link` to connect this repo to a Vercel project
+- Manual deploys: `npm run deploy:preview` (preview URL) or `npm run deploy` (production)
+- For real CI/CD (auto-deploy on every push), connect the GitHub repo in the Vercel dashboard (Add New Project → Import) instead of relying on manual CLI deploys — this also gives per-PR preview deployments
+- Add EmailJS env vars (`VITE_EMAILJS_*`) in the Vercel project's Environment Variables settings — they are not read from the local `.env` file in production
+
 #### Build Configuration
 - **Vite config**: Standard React plugin setup
 - **ESLint**: Configured for React 18.3 with hooks and refresh plugins
