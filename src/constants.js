@@ -78,17 +78,15 @@ export const SkillsInfo = [
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'SQL', logo: mysqlLogo },
-      { name: 'Tableau', logo: postmanLogo },
-      { name: 'Excel', logo: figmaLogo },
+      { name: 'Postman', logo: postmanLogo },
+      { name: 'Figma', logo: figmaLogo },
     ],
   },
   {
-    title: 'CS Fundamentals & OS',
+    title: 'CS Fundamentals',
     skills: [
       { name: 'OOP', logo: javaLogo },
       { name: 'DSA', logo: cppLogo },
-      { name: 'Windows', logo: vscodeLogo },
-      { name: 'Linux', logo: githubLogo },
     ],
   },
 ];

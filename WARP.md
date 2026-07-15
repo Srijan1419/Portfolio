@@ -101,10 +101,9 @@ src/
 ### Configuration Notes
 
 #### EmailJS Setup
-The contact form requires EmailJS configuration:
-- Service ID: Replace `"service_axbtt7a"` in Contact component
-- Template ID: Replace `"template_1ziboq3"` in Contact component  
-- Public Key: Replace `"Rz7W9pVF0HdDryNNL"` in Contact component
+The contact form reads credentials from environment variables (see `.env.example`):
+- Copy `.env.example` to `.env` and fill in your EmailJS Service ID, Template ID, and Public Key
+- `Contact.jsx` reads them via `import.meta.env.VITE_EMAILJS_*` — never hardcode credentials in the component
 
 #### Build Configuration
 - **Vite config**: Standard React plugin setup
