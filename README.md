@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website built with **React.js**, **Vite*
 
 ## 🌟 Live Demo
 
-🔗 **[View Live Portfolio](https://your-deployment-url.netlify.app)** *(Will be updated after deployment)*
+🔗 **[View Live Portfolio](https://portfolio-tau-eight-vi9n3srypi.vercel.app)**
 
 ## 🛠️ Tech Stack
 
@@ -94,7 +94,7 @@ Replace logos in respective asset folders:
 ## 📞 Contact
 
 **Srijan Singh**
-- 🌐 Portfolio: [Coming Soon]
+- 🌐 Portfolio: [portfolio-tau-eight-vi9n3srypi.vercel.app](https://portfolio-tau-eight-vi9n3srypi.vercel.app)
 - 📧 Email: [your.email@example.com]
 - 💼 LinkedIn: [linkedin.com/in/your-profile]
 - 🐈 GitHub: [@Srijan1419](https://github.com/Srijan1419)
